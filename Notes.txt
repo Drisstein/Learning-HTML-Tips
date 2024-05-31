@@ -1,0 +1,9 @@
+A------/////////////Les tableaux:
+Si par exemple nous avons dans la derniere ligne du tableaux que 2 colonnes au lieu de 3 dans notre exemple dans ce cas, nous pouvons utiliser les attributs:
+1) colspan=2 càd de fusionner les 2 colonnes restantes et vice versa avec Rowspan pour les lignes.
+
+syntax:  <td colspan="2">ceci en est une 2e</td> la valeur 2  permet de fusionner les colonnes restantes.
+                <td rowspan="2">Rowspan </td> voir code tableaux.html
+
+
+B-------//////////////////////////
