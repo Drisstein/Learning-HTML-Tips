@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* td Selectionnes l'ensemble des lignes du tableau */
+    td{
+        border: 1px solid;
+        
+    }
+    table{
+        border-collapse: collapse;
+        border-top: 10px solid blue ;
+        border-right: 10px solid gray;
+    }
+</style>
+<body>
+    <table>
+        <caption> Liste des étudiants de SRT1/D2A 2024</caption>  <!--permet de mettre un titre au tableau  -->
+        <!-- Thead : l'entete du Tableau , les rubriques -->
+        <thead>
+            <!-- Tr:Table Row determine les lignes du Tableau  et les Th eux les colonnes de chaque tableau  -->
+            <tr> 
+                <th> Prenom </th>
+                <th> Nom </th>
+                <th> Age </th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Tbody définit le corps du tableau -->
+            <tr>
+                <td>Modou </td>
+                <td>FALL</td>
+                <td>21 ans</td>
+            </tr>
+            <tr>
+                <td>Aissata </td>
+                <td>BATHILY</td>
+                <td>25 ans 
+        
+                </td>
+            </tr>
+            <tr>
+                <td>Aicha</td>
+                <td>FALL</td>
+                <td>18 ans </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>Ceci est la liste définitve des étudiants orientés.</tr>
+        </tfoot>
+       
+    </table>
+</body>
+</html>
