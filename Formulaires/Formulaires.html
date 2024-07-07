@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        fieldset>form input,textarea{
+            border: 1px solid rgb(255, 123, 0);
+    
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 5px;
+            width: 300px;
+        }
+        fieldset>form input[name="fill"],input[name="submit"]{
+            width: 100px;
+            color: rgb(230, 133, 6);
+        }
+        fieldset>form input[name="fill"]{
+            color: rgb(255, 123, 0);
+        }
+    </style>
+</head>
+<body>
+   <fieldset>
+    <legend>drisstein</legend>
+    <form action="post">
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="name" name="name"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="email" name="email" >
+        <br><br>
+        <label for="number">Number</label><br>
+        <input type="text" placeholder="number phone" name="number"><br><br>
+        <label for="fill">fillière</label><br>
+        <input type="radio" name="fill" id="">D2A <br>
+        <input type="radio" name="fill" id="">SRT <br><br>
+        <label for="project">Your Project</label><br>
+        <input type="text" placeholder="write here" name="project"><br><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="submit" name="submit">
+    </form>
+   </fieldset>
+</body>
+</html>
